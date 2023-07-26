@@ -10047,7 +10047,7 @@ end)
 
 addcmd('remotespy',{'rspy'},function(args, speaker)
 pcall(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nootchtai/FrostHook_Spy/master/Spy.lua"))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/dimension-sources/random-scripts-i-found/main/SimpleSpy'),true))()
 end)
 end)
 
