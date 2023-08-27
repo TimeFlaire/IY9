@@ -9962,7 +9962,11 @@ end)
 
 addcmd('explorer', {'dex'}, function(args, speaker)
     notify('Loading', 'Hold on a sec')
+local yes,no = pcall(function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+if not yes then warn("Error:: "..tostring(no)) notify("Error :: "..tostring(no)) end
 --    loadstring(game:HttpGet("https://raw.githubusercontent.com/peyton2465/Dex/master/out.lua"))()
 end)
 
