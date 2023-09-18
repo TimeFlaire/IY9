@@ -10051,10 +10051,10 @@ addcmd('olddex', {'odex'}, function(args, speaker)
 end)
 
 addcmd('remotespy',{'rspy'},function(args, speaker)
-pcall(function()
+--pcall(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
 --loadstring(game:HttpGet(('https://raw.githubusercontent.com/dimension-sources/random-scripts-i-found/main/SimpleSpy'),true))()
-end)
+--end)
 end)
 
 addcmd('audiologger',{'alogger'},function(args, speaker)
