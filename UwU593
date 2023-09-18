@@ -10052,7 +10052,7 @@ end)
 
 addcmd('remotespy',{'rspy'},function(args, speaker)
 pcall(function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
 --loadstring(game:HttpGet(('https://raw.githubusercontent.com/dimension-sources/random-scripts-i-found/main/SimpleSpy'),true))()
 end)
 end)
