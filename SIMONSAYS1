@@ -1,0 +1,825 @@
+
+local G2L = {}
+
+
+
+--[[
+    Instances:
+--]]
+
+--ElectaliteSimonSaysGUI
+G2L["0"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+
+--ElectaliteSimonSaysGUI.MainGUI
+G2L["1"] = Instance.new("Frame", G2L["0"])
+
+--ElectaliteSimonSaysGUI.MainGUI.UIGradient
+G2L["2"] = Instance.new("UIGradient", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay4
+G2L["4"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay4.TextLabel
+G2L["5"] = Instance.new("TextLabel", G2L["4"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay4.Shadow
+G2L["6"] = Instance.new("Frame", G2L["4"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say4
+G2L["7"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say4.TextLabel
+G2L["8"] = Instance.new("TextLabel", G2L["7"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say4.Shadow
+G2L["9"] = Instance.new("Frame", G2L["7"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay3
+G2L["10"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay3.TextLabel
+G2L["11"] = Instance.new("TextLabel", G2L["10"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay3.Shadow
+G2L["12"] = Instance.new("Frame", G2L["10"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say3
+G2L["13"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say3.TextLabel
+G2L["14"] = Instance.new("TextLabel", G2L["13"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say3.Shadow
+G2L["15"] = Instance.new("Frame", G2L["13"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay2
+G2L["16"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay2.TextLabel
+G2L["17"] = Instance.new("TextLabel", G2L["16"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay2.Shadow
+G2L["18"] = Instance.new("Frame", G2L["16"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say2
+G2L["19"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say2.TextLabel
+G2L["20"] = Instance.new("TextLabel", G2L["19"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say2.Shadow
+G2L["21"] = Instance.new("Frame", G2L["19"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay1
+G2L["22"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay1.TextLabel
+G2L["23"] = Instance.new("TextLabel", G2L["22"])
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay1.Shadow
+G2L["24"] = Instance.new("Frame", G2L["22"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say1
+G2L["25"] = Instance.new("TextButton", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say1.TextLabel
+G2L["26"] = Instance.new("TextLabel", G2L["25"])
+
+--ElectaliteSimonSaysGUI.MainGUI.Say1.Shadow
+G2L["27"] = Instance.new("Frame", G2L["25"])
+
+--ElectaliteSimonSaysGUI.MainGUI.TextLabel
+G2L["28"] = Instance.new("TextLabel", G2L["1"])
+
+--ElectaliteSimonSaysGUI.MainGUI.TextLabel
+G2L["29"] = Instance.new("TextLabel", G2L["1"])
+
+
+
+--[[
+    Properties:
+--]]
+--ElectaliteSimonSaysGUI
+G2L["0"].Name = [[ElectaliteSimonSaysGUI]]
+G2L["0"].Enabled = true
+G2L["0"].ZIndexBehavior = Enum.ZIndexBehavior.Global
+
+--ElectaliteSimonSaysGUI.MainGUI
+G2L["1"].Name = [[MainGUI]]
+G2L["1"].Active = true
+G2L["1"].AnchorPoint = Vector2.new(0, 0)
+G2L["1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["1"].BackgroundTransparency = 0
+G2L["1"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["1"].BorderSizePixel = 0
+G2L["1"].ClipsDescendants = false
+G2L["1"].Draggable = true
+G2L["1"].Position = UDim2.new(0.012071993, 0, 1.1825323, -200)
+G2L["1"].Rotation = 0
+G2L["1"].Selectable = false
+G2L["1"].SelectionOrder = 0
+G2L["1"].Size = UDim2.new(0, 319, 0, 120)
+G2L["1"].Visible = true
+G2L["1"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.UIGradient
+G2L["2"].Name = [[UIGradient]]
+G2L["2"].Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(45, 168, 182)), ColorSequenceKeypoint.new(1, Color3.fromRGB(64, 96, 161))};
+G2L["2"].Enabled = true
+G2L["2"].Rotation = 0
+G2L["2"].Transparency = NumberSequence.new(0, 0);
+
+--ElectaliteSimonSaysGUI.MainGUI.UICorner
+G2L["3"].Name = [[UICorner]]
+G2L["3"].CornerRadius = UDim.new(0, 4)
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay4
+G2L["4"].Name = [[DontSay4]]
+G2L["4"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["4"].Text = [[]]
+G2L["4"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["4"].TextScaled = true
+G2L["4"].TextSize = 14
+G2L["4"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["4"].TextStrokeTransparency = 1
+G2L["4"].TextWrapped = true
+G2L["4"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["4"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["4"].Active = true
+G2L["4"].AnchorPoint = Vector2.new(1, 0)
+G2L["4"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["4"].BackgroundTransparency = 0
+G2L["4"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["4"].BorderSizePixel = 0
+G2L["4"].ClipsDescendants = false
+G2L["4"].Draggable = false
+G2L["4"].Position = UDim2.new(0.94862086, 0, 0.56105626, 0)
+G2L["4"].Rotation = 0
+G2L["4"].Selectable = true
+G2L["4"].SelectionOrder = 0
+G2L["4"].Size = UDim2.new(0, 45, 0, 45)
+G2L["4"].Visible = true
+G2L["4"].ZIndex = 2
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay4.TextLabel
+G2L["5"].Name = [[TextLabel]]
+G2L["5"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["5"].Text = "[4]"
+G2L["5"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["5"].TextScaled = true
+G2L["5"].TextSize = 14
+G2L["5"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["5"].TextStrokeTransparency = 1
+G2L["5"].TextWrapped = true
+G2L["5"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["5"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["5"].Active = false
+G2L["5"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["5"].BackgroundTransparency = 1
+G2L["5"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["5"].BorderSizePixel = 0
+G2L["5"].ClipsDescendants = false
+G2L["5"].Draggable = false
+G2L["5"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["5"].Rotation = 0
+G2L["5"].Selectable = false
+G2L["5"].SelectionOrder = 0
+G2L["5"].Size = UDim2.new(1, -20, 1, -20)
+G2L["5"].Visible = true
+G2L["5"].ZIndex = 2
+G2L["4"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, false, 4)
+end)
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay4.Shadow
+G2L["6"].Name = [[Shadow]]
+G2L["6"].Active = false
+G2L["6"].AnchorPoint = Vector2.new(0, 0)
+G2L["6"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["6"].BackgroundTransparency = 0
+G2L["6"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["6"].BorderSizePixel = 0
+G2L["6"].ClipsDescendants = false
+G2L["6"].Draggable = false
+G2L["6"].Position = UDim2.new(0, 0, 0, 0)
+G2L["6"].Rotation = 0
+G2L["6"].Selectable = false
+G2L["6"].SelectionOrder = 0
+G2L["6"].Size = UDim2.new(1, 0, 1, 4)
+G2L["6"].Visible = true
+G2L["6"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.Say4
+G2L["7"].Name = [[Say4]]
+G2L["7"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["7"].Text = [[]]
+G2L["7"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["7"].TextScaled = true
+G2L["7"].TextSize = 14
+G2L["7"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["7"].TextStrokeTransparency = 1
+G2L["7"].TextWrapped = true
+G2L["7"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["7"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["7"].Active = true
+G2L["7"].AnchorPoint = Vector2.new(1, 0)
+G2L["7"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["7"].BackgroundTransparency = 0
+G2L["7"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["7"].BorderSizePixel = 0
+G2L["7"].ClipsDescendants = false
+G2L["7"].Draggable = false
+G2L["7"].Position = UDim2.new(0.94862086, 0, 0.096718855, 0)
+G2L["7"].Rotation = 0
+G2L["7"].Selectable = true
+G2L["7"].SelectionOrder = 0
+G2L["7"].Size = UDim2.new(0, 45, 0, 45)
+G2L["7"].Visible = true
+G2L["7"].ZIndex = 2
+G2L["7"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, true, 4)
+end)
+
+--ElectaliteSimonSaysGUI.MainGUI.Say4.TextLabel
+G2L["8"].Name = [[TextLabel]]
+G2L["8"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["8"].Text = "[4]"
+G2L["8"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["8"].TextScaled = true
+G2L["8"].TextSize = 14
+G2L["8"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["8"].TextStrokeTransparency = 1
+G2L["8"].TextWrapped = true
+G2L["8"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["8"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["8"].Active = false
+G2L["8"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["8"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["8"].BackgroundTransparency = 1
+G2L["8"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["8"].BorderSizePixel = 0
+G2L["8"].ClipsDescendants = false
+G2L["8"].Draggable = false
+G2L["8"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["8"].Rotation = 0
+G2L["8"].Selectable = false
+G2L["8"].SelectionOrder = 0
+G2L["8"].Size = UDim2.new(1, -20, 1, -20)
+G2L["8"].Visible = true
+G2L["8"].ZIndex = 2
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.Say4.Shadow
+G2L["9"].Name = [[Shadow]]
+G2L["9"].Active = false
+G2L["9"].AnchorPoint = Vector2.new(0, 0)
+G2L["9"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["9"].BackgroundTransparency = 0
+G2L["9"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["9"].BorderSizePixel = 0
+G2L["9"].ClipsDescendants = false
+G2L["9"].Draggable = false
+G2L["9"].Position = UDim2.new(0, 0, 0, 0)
+G2L["9"].Rotation = 0
+G2L["9"].Selectable = false
+G2L["9"].SelectionOrder = 0
+G2L["9"].Size = UDim2.new(1, 0, 1, 4)
+G2L["9"].Visible = true
+G2L["9"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay3
+G2L["10"].Name = [[DontSay3]]
+G2L["10"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["10"].Text = [[]]
+G2L["10"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["10"].TextScaled = true
+G2L["10"].TextSize = 14
+G2L["10"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["10"].TextStrokeTransparency = 1
+G2L["10"].TextWrapped = true
+G2L["10"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["10"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["10"].Active = true
+G2L["10"].AnchorPoint = Vector2.new(1, 0)
+G2L["10"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["10"].BackgroundTransparency = 0
+G2L["10"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["10"].BorderSizePixel = 0
+G2L["10"].ClipsDescendants = false
+G2L["10"].Draggable = false
+G2L["10"].Position = UDim2.new(0.7592521, 0, 0.55696744, 0)
+G2L["10"].Rotation = 0
+G2L["10"].Selectable = true
+G2L["10"].SelectionOrder = 0
+G2L["10"].Size = UDim2.new(0, 45, 0, 45)
+G2L["10"].Visible = true
+G2L["10"].ZIndex = 2
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay3.TextLabel
+G2L["11"].Name = [[TextLabel]]
+G2L["11"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["11"].Text = "[3]"
+G2L["11"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["11"].TextScaled = true
+G2L["11"].TextSize = 14
+G2L["11"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["11"].TextStrokeTransparency = 1
+G2L["11"].TextWrapped = true
+G2L["11"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["11"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["11"].Active = false
+G2L["11"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["11"].BackgroundTransparency = 1
+G2L["11"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["11"].BorderSizePixel = 0
+G2L["11"].ClipsDescendants = false
+G2L["11"].Draggable = false
+G2L["11"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["11"].Rotation = 0
+G2L["11"].Selectable = false
+G2L["11"].SelectionOrder = 0
+G2L["11"].Size = UDim2.new(1, -20, 1, -20)
+G2L["11"].Visible = true
+G2L["11"].ZIndex = 2
+G2L["10"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, false, 3)
+end)
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay3.Shadow
+G2L["12"].Name = [[Shadow]]
+G2L["12"].Active = false
+G2L["12"].AnchorPoint = Vector2.new(0, 0)
+G2L["12"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["12"].BackgroundTransparency = 0
+G2L["12"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["12"].BorderSizePixel = 0
+G2L["12"].ClipsDescendants = false
+G2L["12"].Draggable = false
+G2L["12"].Position = UDim2.new(0, 0, 0, 0)
+G2L["12"].Rotation = 0
+G2L["12"].Selectable = false
+G2L["12"].SelectionOrder = 0
+G2L["12"].Size = UDim2.new(1, 0, 1, 4)
+G2L["12"].Visible = true
+G2L["12"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.Say3
+G2L["13"].Name = [[Say3]]
+G2L["13"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["13"].Text = [[]]
+G2L["13"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["13"].TextScaled = true
+G2L["13"].TextSize = 14
+G2L["13"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["13"].TextStrokeTransparency = 1
+G2L["13"].TextWrapped = true
+G2L["13"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["13"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["13"].Active = true
+G2L["13"].AnchorPoint = Vector2.new(1, 0)
+G2L["13"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["13"].BackgroundTransparency = 0
+G2L["13"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["13"].BorderSizePixel = 0
+G2L["13"].ClipsDescendants = false
+G2L["13"].Draggable = false
+G2L["13"].Position = UDim2.new(0.7592521, 0, 0.08005218, 0)
+G2L["13"].Rotation = 0
+G2L["13"].Selectable = true
+G2L["13"].SelectionOrder = 0
+G2L["13"].Size = UDim2.new(0, 45, 0, 45)
+G2L["13"].Visible = true
+G2L["13"].ZIndex = 2
+
+--ElectaliteSimonSaysGUI.MainGUI.Say3.TextLabel
+G2L["14"].Name = [[TextLabel]]
+G2L["14"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["14"].Text = "[3]"
+G2L["14"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].TextScaled = true
+G2L["14"].TextSize = 14
+G2L["14"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["14"].TextStrokeTransparency = 1
+G2L["14"].TextWrapped = true
+G2L["14"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["14"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["14"].Active = false
+G2L["14"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["14"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["14"].BackgroundTransparency = 1
+G2L["14"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["14"].BorderSizePixel = 0
+G2L["14"].ClipsDescendants = false
+G2L["14"].Draggable = false
+G2L["14"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["14"].Rotation = 0
+G2L["14"].Selectable = false
+G2L["14"].SelectionOrder = 0
+G2L["14"].Size = UDim2.new(1, -20, 1, -20)
+G2L["14"].Visible = true
+G2L["14"].ZIndex = 2
+G2L["13"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, true, 3)
+end)
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.Say3.Shadow
+G2L["15"].Name = [[Shadow]]
+G2L["15"].Active = false
+G2L["15"].AnchorPoint = Vector2.new(0, 0)
+G2L["15"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["15"].BackgroundTransparency = 0
+G2L["15"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["15"].BorderSizePixel = 0
+G2L["15"].ClipsDescendants = false
+G2L["15"].Draggable = false
+G2L["15"].Position = UDim2.new(0, 0, 0, 0)
+G2L["15"].Rotation = 0
+G2L["15"].Selectable = false
+G2L["15"].SelectionOrder = 0
+G2L["15"].Size = UDim2.new(1, 0, 1, 4)
+G2L["15"].Visible = true
+G2L["15"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay2
+G2L["16"].Name = [[DontSay2]]
+G2L["16"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["16"].Text = [[]]
+G2L["16"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["16"].TextScaled = true
+G2L["16"].TextSize = 14
+G2L["16"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["16"].TextStrokeTransparency = 1
+G2L["16"].TextWrapped = true
+G2L["16"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["16"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["16"].Active = true
+G2L["16"].AnchorPoint = Vector2.new(1, 0)
+G2L["16"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["16"].BackgroundTransparency = 0
+G2L["16"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["16"].BorderSizePixel = 0
+G2L["16"].ClipsDescendants = false
+G2L["16"].Draggable = false
+G2L["16"].Position = UDim2.new(0.5700708, 0, 0.56530076, 0)
+G2L["16"].Rotation = 0
+G2L["16"].Selectable = true
+G2L["16"].SelectionOrder = 0
+G2L["16"].Size = UDim2.new(0, 45, 0, 45)
+G2L["16"].Visible = true
+G2L["16"].ZIndex = 2
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay2.TextLabel
+G2L["17"].Name = [[TextLabel]]
+G2L["17"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["17"].Text = "[2]"
+G2L["17"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["17"].TextScaled = true
+G2L["17"].TextSize = 14
+G2L["17"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["17"].TextStrokeTransparency = 1
+G2L["17"].TextWrapped = true
+G2L["17"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["17"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["17"].Active = false
+G2L["17"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["17"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["17"].BackgroundTransparency = 1
+G2L["17"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["17"].BorderSizePixel = 0
+G2L["17"].ClipsDescendants = false
+G2L["17"].Draggable = false
+G2L["17"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["17"].Rotation = 0
+G2L["17"].Selectable = false
+G2L["17"].SelectionOrder = 0
+G2L["17"].Size = UDim2.new(1, -20, 1, -20)
+G2L["17"].Visible = true
+G2L["17"].ZIndex = 2
+G2L["16"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, false, 2)
+end)
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay2.Shadow
+G2L["18"].Name = [[Shadow]]
+G2L["18"].Active = false
+G2L["18"].AnchorPoint = Vector2.new(0, 0)
+G2L["18"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["18"].BackgroundTransparency = 0
+G2L["18"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["18"].BorderSizePixel = 0
+G2L["18"].ClipsDescendants = false
+G2L["18"].Draggable = false
+G2L["18"].Position = UDim2.new(0, 0, 0, 0)
+G2L["18"].Rotation = 0
+G2L["18"].Selectable = false
+G2L["18"].SelectionOrder = 0
+G2L["18"].Size = UDim2.new(1, 0, 1, 4)
+G2L["18"].Visible = true
+G2L["18"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.Say2
+G2L["19"].Name = [[Say2]]
+G2L["19"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["19"].Text = [[]]
+G2L["19"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["19"].TextScaled = true
+G2L["19"].TextSize = 14
+G2L["19"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["19"].TextStrokeTransparency = 1
+G2L["19"].TextWrapped = true
+G2L["19"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["19"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["19"].Active = true
+G2L["19"].AnchorPoint = Vector2.new(1, 0)
+G2L["19"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["19"].BackgroundTransparency = 0
+G2L["19"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["19"].BorderSizePixel = 0
+G2L["19"].ClipsDescendants = false
+G2L["19"].Draggable = false
+G2L["19"].Position = UDim2.new(0.5700708, 0, 0.08005218, 0)
+G2L["19"].Rotation = 0
+G2L["19"].Selectable = true
+G2L["19"].SelectionOrder = 0
+G2L["19"].Size = UDim2.new(0, 45, 0, 45)
+G2L["19"].Visible = true
+G2L["19"].ZIndex = 2
+
+--ElectaliteSimonSaysGUI.MainGUI.Say2.TextLabel
+G2L["20"].Name = [[TextLabel]]
+G2L["20"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["20"].Text = "[2]"
+G2L["20"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["20"].TextScaled = true
+G2L["20"].TextSize = 14
+G2L["20"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["20"].TextStrokeTransparency = 1
+G2L["20"].TextWrapped = true
+G2L["20"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["20"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["20"].Active = false
+G2L["20"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["20"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["20"].BackgroundTransparency = 1
+G2L["20"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["20"].BorderSizePixel = 0
+G2L["20"].ClipsDescendants = false
+G2L["20"].Draggable = false
+G2L["20"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["20"].Rotation = 0
+G2L["20"].Selectable = false
+G2L["20"].SelectionOrder = 0
+G2L["20"].Size = UDim2.new(1, -20, 1, -20)
+G2L["20"].Visible = true
+G2L["20"].ZIndex = 2
+G2L["19"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, true, 2)
+end)
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.Say2.Shadow
+G2L["21"].Name = [[Shadow]]
+G2L["21"].Active = false
+G2L["21"].AnchorPoint = Vector2.new(0, 0)
+G2L["21"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["21"].BackgroundTransparency = 0
+G2L["21"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["21"].BorderSizePixel = 0
+G2L["21"].ClipsDescendants = false
+G2L["21"].Draggable = false
+G2L["21"].Position = UDim2.new(0, 0, 0, 0)
+G2L["21"].Rotation = 0
+G2L["21"].Selectable = false
+G2L["21"].SelectionOrder = 0
+G2L["21"].Size = UDim2.new(1, 0, 1, 4)
+G2L["21"].Visible = true
+G2L["21"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay1
+G2L["22"].Name = [[DontSay1]]
+G2L["22"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["22"].Text = [[]]
+G2L["22"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["22"].TextScaled = true
+G2L["22"].TextSize = 14
+G2L["22"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["22"].TextStrokeTransparency = 1
+G2L["22"].TextWrapped = true
+G2L["22"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["22"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["22"].Active = true
+G2L["22"].AnchorPoint = Vector2.new(1, 0)
+G2L["22"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["22"].BackgroundTransparency = 0
+G2L["22"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["22"].BorderSizePixel = 0
+G2L["22"].ClipsDescendants = false
+G2L["22"].Draggable = false
+G2L["22"].Position = UDim2.new(0.37387007, 0, 0.56530076, 0)
+G2L["22"].Rotation = 0
+G2L["22"].Selectable = true
+G2L["22"].SelectionOrder = 0
+G2L["22"].Size = UDim2.new(0, 45, 0, 45)
+G2L["22"].Visible = true
+G2L["22"].ZIndex = 2
+
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay1.TextLabel
+G2L["23"].Name = [[TextLabel]]
+G2L["23"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["23"].Text = "[1]"
+G2L["23"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["23"].TextScaled = true
+G2L["23"].TextSize = 14
+G2L["23"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["23"].TextStrokeTransparency = 1
+G2L["23"].TextWrapped = true
+G2L["23"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["23"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["23"].Active = false
+G2L["23"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["23"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["23"].BackgroundTransparency = 1
+G2L["23"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["23"].BorderSizePixel = 0
+G2L["23"].ClipsDescendants = false
+G2L["23"].Draggable = false
+G2L["23"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["23"].Rotation = 0
+G2L["23"].Selectable = false
+G2L["23"].SelectionOrder = 0
+G2L["23"].Size = UDim2.new(1, -20, 1, -20)
+G2L["23"].Visible = true
+G2L["23"].ZIndex = 2
+G2L["22"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, false, 1)
+end)
+
+
+--ElectaliteSimonSaysGUI.MainGUI.DontSay1.Shadow
+G2L["24"].Name = [[Shadow]]
+G2L["24"].Active = false
+G2L["24"].AnchorPoint = Vector2.new(0, 0)
+G2L["24"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["24"].BackgroundTransparency = 0
+G2L["24"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["24"].BorderSizePixel = 0
+G2L["24"].ClipsDescendants = false
+G2L["24"].Draggable = false
+G2L["24"].Position = UDim2.new(0, 0, 0, 0)
+G2L["24"].Rotation = 0
+G2L["24"].Selectable = false
+G2L["24"].SelectionOrder = 0
+G2L["24"].Size = UDim2.new(1, 0, 1, 4)
+G2L["24"].Visible = true
+G2L["24"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.Say1
+G2L["25"].Name = [[Say1]]
+G2L["25"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["25"].Text = [[]]
+G2L["25"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["25"].TextScaled = true
+G2L["25"].TextSize = 14
+G2L["25"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["25"].TextStrokeTransparency = 1
+G2L["25"].TextWrapped = true
+G2L["25"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["25"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["25"].Active = true
+G2L["25"].AnchorPoint = Vector2.new(1, 0)
+G2L["25"].BackgroundColor3 = Color3.fromRGB(221, 221, 221)
+G2L["25"].BackgroundTransparency = 0
+G2L["25"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["25"].BorderSizePixel = 0
+G2L["25"].ClipsDescendants = false
+G2L["25"].Draggable = false
+G2L["25"].Position = UDim2.new(0.37387007, 0, 0.08005218, 0)
+G2L["25"].Rotation = 0
+G2L["25"].Selectable = true
+G2L["25"].SelectionOrder = 0
+G2L["25"].Size = UDim2.new(0, 45, 0, 45)
+G2L["25"].Visible = true
+G2L["25"].ZIndex = 2
+
+--ElectaliteSimonSaysGUI.MainGUI.Say1.TextLabel
+G2L["26"].Name = [[TextLabel]]
+G2L["26"].FontFace = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal)
+G2L["26"].Text = "[1]"
+G2L["26"].TextColor3 = Color3.fromRGB(0, 0, 0)
+G2L["26"].TextScaled = true
+G2L["26"].TextSize = 14
+G2L["26"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["26"].TextStrokeTransparency = 1
+G2L["26"].TextWrapped = true
+G2L["26"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["26"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["26"].Active = false
+G2L["26"].AnchorPoint = Vector2.new(0.5, 0.5)
+G2L["26"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["26"].BackgroundTransparency = 1
+G2L["26"].BorderColor3 = Color3.fromRGB(27, 42, 53)
+G2L["26"].BorderSizePixel = 0
+G2L["26"].ClipsDescendants = false
+G2L["26"].Draggable = false
+G2L["26"].Position = UDim2.new(0.5, 0, 0.5, 0)
+G2L["26"].Rotation = 0
+G2L["26"].Selectable = false
+G2L["26"].SelectionOrder = 0
+G2L["26"].Size = UDim2.new(1, -20, 1, -20)
+G2L["26"].Visible = true
+G2L["26"].ZIndex = 2
+G2L["25"].MouseButton1Click:Connect(function()
+    game:GetService("ReplicatedStorage").ServerEvents.SimonCommand:InvokeServer(true, true, 1)
+end)
+
+
+
+--ElectaliteSimonSaysGUI.MainGUI.Say1.Shadow
+G2L["27"].Name = [[Shadow]]
+G2L["27"].Active = false
+G2L["27"].AnchorPoint = Vector2.new(0, 0)
+G2L["27"].BackgroundColor3 = Color3.fromRGB(150, 150, 150)
+G2L["27"].BackgroundTransparency = 0
+G2L["27"].BorderColor3 = Color3.fromRGB(27.000002, 42, 53.000004)
+G2L["27"].BorderSizePixel = 0
+G2L["27"].ClipsDescendants = false
+G2L["27"].Draggable = false
+G2L["27"].Position = UDim2.new(0, 0, 0, 0)
+G2L["27"].Rotation = 0
+G2L["27"].Selectable = false
+G2L["27"].SelectionOrder = 0
+G2L["27"].Size = UDim2.new(1, 0, 1, 4)
+G2L["27"].Visible = true
+G2L["27"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.TextLabel
+G2L["28"].Name = [[TextLabel]]
+G2L["28"].FontFace = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["28"].Text = [[Say]]
+G2L["28"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["28"].TextScaled = true
+G2L["28"].TextSize = 14
+G2L["28"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["28"].TextStrokeTransparency = 1
+G2L["28"].TextWrapped = true
+G2L["28"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["28"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["28"].Active = false
+G2L["28"].AnchorPoint = Vector2.new(0, 0)
+G2L["28"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["28"].BackgroundTransparency = 1
+G2L["28"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["28"].BorderSizePixel = 0
+G2L["28"].ClipsDescendants = false
+G2L["28"].Draggable = false
+G2L["28"].Position = UDim2.new(0.031347964, 0, 0.11338552, 0)
+G2L["28"].Rotation = 0
+G2L["28"].Selectable = false
+G2L["28"].SelectionOrder = 0
+G2L["28"].Size = UDim2.new(0, 57, 0, 36)
+G2L["28"].Visible = true
+G2L["28"].ZIndex = 1
+
+--ElectaliteSimonSaysGUI.MainGUI.TextLabel
+G2L["29"].Name = [[TextLabel]]
+G2L["29"].FontFace = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+G2L["29"].Text = [[Dont Say]]
+G2L["29"].TextColor3 = Color3.fromRGB(255, 255, 255)
+G2L["29"].TextScaled = true
+G2L["29"].TextSize = 14
+G2L["29"].TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+G2L["29"].TextStrokeTransparency = 1
+G2L["29"].TextWrapped = true
+G2L["29"].TextXAlignment = Enum.TextXAlignment.Center
+G2L["29"].TextYAlignment = Enum.TextYAlignment.Center
+G2L["29"].Active = false
+G2L["29"].AnchorPoint = Vector2.new(0, 0)
+G2L["29"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+G2L["29"].BackgroundTransparency = 1
+G2L["29"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+G2L["29"].BorderSizePixel = 0
+G2L["29"].ClipsDescendants = false
+G2L["29"].Draggable = false
+G2L["29"].Position = UDim2.new(0.031347964, 0, 0.59671885, 0)
+G2L["29"].Rotation = 0
+G2L["29"].Selectable = false
+G2L["29"].SelectionOrder = 0
+G2L["29"].Size = UDim2.new(0, 57, 0, 36)
+G2L["29"].Visible = true
+G2L["29"].ZIndex = 1
