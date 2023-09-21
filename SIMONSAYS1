@@ -8,7 +8,7 @@ local G2L = {}
 --]]
 
 --ElectaliteSimonSaysGUI
-G2L["0"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+G2L["0"] = Instance.new("ScreenGui", game:GetService("CoreGui"))
 
 --ElectaliteSimonSaysGUI.MainGUI
 G2L["1"] = Instance.new("Frame", G2L["0"])
